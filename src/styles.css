@@ -29,3 +29,9 @@ body {
     align-items: center;
     font-size: 1.5rem;
 }
+
+#controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  width: 300px; 
+}
